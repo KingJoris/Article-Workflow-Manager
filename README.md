@@ -29,7 +29,7 @@ This gadget is an article editing workflow manager designed to streamline and en
 
 ## Technologies Used
 
-- **Backend:** Node.js, Express, MongoDB (or other chosen database)
+- **Backend:** Node.js, Express, MongoDB
 - **Frontend:** React, HTML/CSS, JavaScript
 
 ## Contributing
