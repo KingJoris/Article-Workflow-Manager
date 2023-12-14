@@ -1,0 +1,29 @@
+{
+  "name": "articleWorkflowManager",
+  "version": "1.0.0",
+  "description": "Article Editing Workflow Manager",
+  "author": "Joris Darlington Quarshie",
+  "license": "MIT",
+  "keywords": [
+    "article",
+    "workflow",
+    "manager"
+  ],
+  "scripts": {
+    "start:frontend": "cd articleWorkflowManager && npm start",
+    "start:backend": "node articleWorkflowManager/server.js",
+    "dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "build:frontend": "cd articleWorkflowManager && npm run build",
+    "test:frontend": "cd articleWorkflowManager && npm test",
+    "test:backend": "echo \"No backend tests yet\""
+  },
+  "dependencies": {
+    "concurrently": "^6.2.2",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+    // Add other backend dependencies as needed
+  },
+  "devDependencies": {
+    // Add frontend dev dependencies if required
+  }
+}
