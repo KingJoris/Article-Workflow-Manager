@@ -1,0 +1,23 @@
+/* Task List */
+.task-list {
+  margin-top: 20px;
+}
+
+/* Task Item */
+.task-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-item h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.task-item p {
+  color: #555;
+  font-size: 14px;
+}
