@@ -1,0 +1,24 @@
+/articleWorkflowManager
+    /src
+        /components
+            TaskList.js
+            TaskItem.js
+            DeadlineInput.js
+            PrioritySelector.js
+            TaskCreator.js
+        /styles
+            main.css
+            taskCreator.css
+        App.js
+        index.js
+    /models
+    /routes
+    server.js
+    package.json 
+    package-lock.json 
+    README.md 
+    /public 
+          index.html  
+          favicon.ico
+          ... 
+    /node_modules 
